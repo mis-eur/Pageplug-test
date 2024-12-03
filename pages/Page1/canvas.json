@@ -1,0 +1,204 @@
+{
+  "unpublishedPage": {
+    "name": "Page1",
+    "slug": "page1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 1292,
+          "containerStyle": "none",
+          "snapRows": 125,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 71,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "schema": "{\"form\":{\"labelCol\":6,\"wrapperCol\":12},\"schema\":{\"type\":\"object\",\"properties\":{\"i176xi2ry5k\":{\"type\":\"Array<object>\",\"title\":\"Upload\",\"x-decorator\":\"FormItem\",\"x-component\":\"Upload\",\"x-component-props\":{\"textContent\":\"Upload\"},\"x-validator\":[],\"x-decorator-props\":{},\"x-designable-id\":\"i176xi2ry5k\",\"x-index\":0},\"gof6uefqoih\":{\"type\":\"Array<string | number>\",\"title\":\"Checkbox Group\",\"x-decorator\":\"FormItem\",\"x-component\":\"Checkbox.Group\",\"enum\":[{\"label\":\"选项1\",\"value\":1},{\"label\":\"选项2\",\"value\":2}],\"x-validator\":[],\"x-decorator-props\":{},\"x-designable-id\":\"gof6uefqoih\",\"x-index\":1},\"4uvtmjuax86\":{\"type\":\"number\",\"title\":\"NumberPicker\",\"x-decorator\":\"FormItem\",\"x-component\":\"NumberPicker\",\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"x-designable-id\":\"4uvtmjuax86\",\"x-index\":2},\"9yi5s4ff9ow\":{\"type\":\"string\",\"title\":\"Input\",\"x-decorator\":\"FormItem\",\"x-component\":\"Input\",\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"x-designable-id\":\"9yi5s4ff9ow\",\"x-index\":3},\"2uqdnzvj1i7\":{\"type\":\"string\",\"title\":\"Input\",\"x-decorator\":\"FormItem\",\"x-component\":\"Input\",\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"x-designable-id\":\"2uqdnzvj1i7\",\"x-index\":4},\"5tc1hfr05v2\":{\"type\":\"string\",\"title\":\"TextArea\",\"x-decorator\":\"FormItem\",\"x-component\":\"Input.TextArea\",\"x-validator\":[],\"x-component-props\":{},\"x-decorator-props\":{},\"x-designable-id\":\"5tc1hfr05v2\",\"x-index\":5}},\"x-designable-id\":\"ri37t6pv8hb\"}}",
+              "widgetName": "formily1",
+              "isCanvas": false,
+              "dynamicPropertyPathList": [],
+              "displayName": "Formily表单",
+              "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
+              "searchTags": [
+                "form",
+                "submit"
+              ],
+              "topRow": 10,
+              "bottomRow": 58,
+              "parentRowSpace": 10,
+              "title": "表单标题",
+              "type": "FORMILY_WIDGET",
+              "triggerLabel": "打开表单",
+              "hideCard": false,
+              "parentColumnSpace": 19.953125,
+              "dynamicTriggerPathList": [
+                {
+                  "key": "onFormSubmit"
+                }
+              ],
+              "leftColumn": 31,
+              "dynamicBindingPathList": [],
+              "resetLabel": "重置",
+              "showReset": true,
+              "key": "sytbr59l6h",
+              "submitLabel": "提交1",
+              "onFormSubmit": "",
+              "formType": "PLAIN",
+              "isDeprecated": false,
+              "rightColumn": 63,
+              "widgetId": "mzdn69n8y4",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "widgetName": "Echarts1",
+              "allowScroll": false,
+              "displayName": "Echarts",
+              "iconSVG": "/static/media/icon.d639d74ea3f095d6be69c6db4b415df6.svg",
+              "searchTags": [
+                "graph",
+                "echart",
+                "chart",
+                "visualisations"
+              ],
+              "topRow": 9,
+              "bottomRow": 41,
+              "parentRowSpace": 10,
+              "customEchartConfig": {
+                "title": {
+                  "text": "基础折线图"
+                },
+                "xAxis": {
+                  "type": "category",
+                  "data": [
+                    "Mon",
+                    "Tue",
+                    "Wed",
+                    "Thu",
+                    "Fri",
+                    "Sat",
+                    "Sun"
+                  ]
+                },
+                "yAxis": {
+                  "type": "value"
+                },
+                "series": [
+                  {
+                    "data": [
+                      150,
+                      230,
+                      224,
+                      218,
+                      135,
+                      147,
+                      260
+                    ],
+                    "type": "line"
+                  }
+                ]
+              },
+              "type": "ECHART_WIDGET",
+              "hideCard": false,
+              "chartData": {
+                "s7pk99uy1w": {
+                  "type": "line",
+                  "seriesName": "秋季系列",
+                  "data": [
+                    {
+                      "value": 335,
+                      "name": "衬衫"
+                    },
+                    {
+                      "value": 234,
+                      "name": "羊毛衫"
+                    },
+                    {
+                      "value": 1548,
+                      "name": "雪纺衫"
+                    },
+                    {
+                      "value": 758,
+                      "name": "裤子"
+                    },
+                    {
+                      "value": 358,
+                      "name": "高跟鞋"
+                    },
+                    {
+                      "value": 658,
+                      "name": "袜子"
+                    }
+                  ]
+                }
+              },
+              "animateLoading": true,
+              "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+              "parentColumnSpace": 19.953125,
+              "leftColumn": 7,
+              "dynamicBindingPathList": [
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                },
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "fontFamily"
+                }
+              ],
+              "mycustom": 2,
+              "key": "7awfbyu0a4",
+              "isDeprecated": false,
+              "rightColumn": 31,
+              "widgetId": "elidomp08d",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "yAxisName": "销量",
+              "chartName": "",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "xAxisName": "品类",
+              "chartType": "LINE_CHART"
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Page1",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "674d1dda9d28026fe789605a_674d1dda9d28026fe789605c"
+}
